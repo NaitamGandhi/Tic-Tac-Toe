@@ -1,0 +1,74 @@
+table,
+td {
+    border: 1px solid #fff;
+    background-color: #060b26;
+    color: #fff;
+    padding: 2px;
+    margin: 20px;
+}
+
+thead,
+tfoot {
+    background-color: #060b26;
+    color: #fff;
+}
+
+.leaderboard{
+    background-color: #060b26;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: none;
+    border: none;
+    text-decoration: none;
+    padding: 0px;
+}
+.nav-menu{
+    background-color: #060b26;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+.menu-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.nav-menu-items {
+  width: 100%;
+}
+span {
+  margin-left: 16px;
+}
+.userTable{
+    width: auto;
+    text-align: center;
+    margin: 0px;
+    float: left;
+}
+.scoreTable{
+    width: auto;
+    text-align: center;
+    margin: 0px;
+    float: left;
+}
+.loggedIn{
+    color: green;
+}
